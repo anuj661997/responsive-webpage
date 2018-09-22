@@ -1,0 +1,168 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.bgimg{
+
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../newproject/img/hye1.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 662px;
+}
+.navbar {background-color: black;}
+
+.headerset{
+	padding-top: 222px;
+	box-sizing: border-box;
+}
+ 
+.headerset h2{
+	font-size: 45px;
+}
+.headerset h1{font-size: 75px;
+font-weight: bold;}
+
+
+.ourservices{background-image: linear-gradient( to top left,#ede9de 80%,
+ 		#DDDDDD 20%);
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font font-weight: bold;
+}
+
+.rowsetting{  
+	margin: 70px 0px !important;
+}
+.rowsetting p{color: grey;
+text-transform: lowercase;}
+
+.rowsetting h2{margin-top: 25px;
+font-weight: bold;
+font-size:30px;}
+
+.navbar-nav li a{padding:3px;}
+.navbar-nav li a:hover{
+	border-bottom: 2px solid orange;
+}  
+
+.demo a i:hover{color:orange;}
+
+.link a:hover{color:green;}
+
+.imgsetting{border-radius:50%;
+height: 100px;
+width: 100px;}
+
+.fa-shopping-cart{margin-top: 25px;}
+.fa-desktop{
+margin-top: 27px;
+}
+.fa-lock{margin-top: 25px;}
+
+/*[porfolio]
+*/
+
+.portfolio{height: 1000px;
+width: 100%
+padding:100px 0px 80px;
+ }
+
+ .portfolio h1{padding-top:50px;
+ 	font-size: 50px;
+ 	font-weight: bold;
+ }
+
+ .card{margin-top: 40px;}
+ .card-img{opacity: 0.7}
+ .card-img:hover{
+	 opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+ .ourteam{height:700px;
+ 	background-image: linear-gradient( to top right, #ddcdbb 80%,
+ 		#DDDDDD 20%);
+
+ 	padding: 100px 0px 60px;
+ 	width: 100%;
+ }
+ 	.ourteam h1{font-size: 50px;
+ 		font-weight: bold;}
+
+
+ 	.teamsetting{margin-top: 70px !important;}
+
+
+ 	.footer{background-color: black;
+ 		height: 330px;
+ 		padding-top: 60px; }
+
+ 		.figure-img:hover{
+  opacity: 0.5;
+}
+
+.colorchange{animation: colorchange 1s infinite;}
+
+@keyframes colorchange{
+	0%{color: #ffdb99;}
+	25%{color: #ffa100; ;}
+	50%{ color: #ffe4b3; }
+	100%{ color: #ffa100;  }
+ }
+
+
+.btn{margin-top:20px;}
+
+ 
+/*//////// Responsive queries //////////*/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+.portfolio{height: 850px;}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+.portfolio{height: 2900px;}
+.ourteam{height: 1400px;}
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+.ourservices{
+	height: 1100px;
+}
+.portfolio{height: 2500px;}
+.ourteam{height: 1400px;}
+}
+
+@media(max-width: 479px){
+
+
+	.headerset h2{
+	font-size: 24px;
+}
+.headerset h1{font-size: 44px;
+font-weight: bold;}
+
+
+.ourservices{
+	height: 1200px;
+}
+
+.portfolio{height: 2300px;}
+
+.ourteam{height: 1400px;}
+
+
+}
