@@ -6,7 +6,7 @@
 
 .bgimg{
 
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../newproject/img/hye1.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../responsive-webpage/img/hye1.jpg");
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
